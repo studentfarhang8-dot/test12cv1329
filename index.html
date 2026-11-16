@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student and aspiring front-end developer's portfolio and CV.">
+  <meta name="theme-color" content="#f4f1e9">
+  <title>Your Name — Student & Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Your Name, home">
+        <span class="brand-mark">YN<span>.</span></span>
+        <span class="brand-caption">PERSONAL PORTFOLIO</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        </button>
+        <a class="button button-dark button-small" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1>Your Name<span class="accent-period">.</span></h1>
+        <h2>Student <span class="muted-word">+</span> <em>aspiring</em><br>Front-End Developer</h2>
+        <p class="hero-intro">I enjoy turning ideas into clean, useful web experiences. I’m building my skills one project at a time, exploring the details behind thoughtful design and well-written code.</p>
+        <div class="hero-actions">
+          <a class="button button-accent" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <button class="text-button" id="print-cv" type="button">Print / save CV <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">BASED IN</span><span class="meta-value">[City, Country]</span></div>
+          <div><span class="meta-label">FOCUS</span><span class="meta-value">Web development</span></div>
+          <div><span class="meta-label">STATUS</span><span class="meta-value"><span class="status-dot small"></span> Learning by building</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Profile summary">
+        <div class="card-topline"><span>PROFILE / 001</span><span>2026 — NOW</span></div>
+        <div class="portrait-placeholder" aria-label="Placeholder for a profile photo">
+          <div class="portrait-ring ring-one"></div>
+          <div class="portrait-ring ring-two"></div>
+          <div class="portrait-initials">YN</div>
+          <span class="portrait-note">ADD YOUR PHOTO</span>
+          <span class="portrait-spark">✳</span>
+        </div>
+        <div class="card-bottom">
+          <div><span class="card-label">CURRENTLY EXPLORING</span><strong>HTML · CSS · JavaScript</strong></div>
+          <span class="arrow-circle" aria-hidden="true">↗</span>
+        </div>
+        <div class="card-index">01 / 05</div>
+      </aside>
+      <div class="hero-decoration" aria-hidden="true">✳</div>
+      <div class="scroll-cue" aria-hidden="true"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section section-dark" id="about">
+      <div class="section-shell two-column">
+        <div class="section-heading reveal">
+          <p class="section-index">01 — ABOUT</p>
+          <h2>Curious mind.<br><em>Builder's</em> mindset.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">I’m a student interested in the creative and technical sides of the web.</p>
+          <p>My learning so far has focused on the building blocks of front-end development: structuring pages with HTML, styling layouts with CSS, and adding interaction with JavaScript. I’ve also been practising programming fundamentals with Python.</p>
+          <p>I learn best by making things, testing ideas, finding what breaks, and improving the result. My goal is to keep growing into a developer who cares about both how a website works and how it feels to use.</p>
+          <div class="about-facts">
+            <div><span class="fact-number">01</span><span>Learn by doing</span></div>
+            <div><span class="fact-number">02</span><span>Think through details</span></div>
+            <div><span class="fact-number">03</span><span>Keep improving</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="skills">
+      <div class="section-shell">
+        <div class="section-title-row reveal">
+          <div><p class="section-index">02 — TOOLKIT</p><h2>Skills & <em>interests</em></h2></div>
+          <p class="section-aside">A growing toolkit. These are learning areas, not claimed professional certifications.</p>
+        </div>
+        <div class="skills-layout">
+          <article class="skill-card skill-feature reveal">
+            <div class="skill-card-head"><span class="skill-number">01</span><span class="skill-icon">⌘</span></div>
+            <h3>Front-end foundations</h3>
+            <p>Building the structure, presentation, and interactions of websites.</p>
+            <div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive design</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card-head"><span class="skill-number">02</span><span class="skill-icon">{ }</span></div>
+            <h3>Programming</h3>
+            <p>Practising logic, loops, input, and problem-solving.</p>
+            <div class="tag-list"><span>Python</span><span>JavaScript basics</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card-head"><span class="skill-number">03</span><span class="skill-icon">▦</span></div>
+            <h3>Tools & workflow</h3>
+            <p>Learning how to organise, build, and publish projects.</p>
+            <div class="tag-list"><span>GitHub</span><span>VS Code <small>[placeholder]</small></span><span>Bootstrap <small>[practising]</small></span></div>
+          </article>
+          <article class="skill-card skill-quote reveal">
+            <span class="quote-mark">“</span>
+            <p>Good work comes from staying curious and being willing to improve the details.</p>
+            <span class="quote-caption">A PERSONAL APPROACH</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="projects">
+      <div class="section-shell">
+        <div class="section-title-row reveal">
+          <div><p class="section-index">03 — SELECTED WORK</p><h2>Things I've <em>built</em></h2></div>
+          <p class="section-aside">Practice projects that show what I’m learning. Replace the links and descriptions with your finished work.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-item reveal">
+            <div class="project-visual visual-calculator">
+              <div class="mini-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="calc-display">2,048<span>READY</span></div><div class="calc-grid"><b>AC</b><b>±</b><b>%</b><b class="operator">÷</b><b>7</b><b>8</b><b>9</b><b class="operator">×</b><b>4</b><b>5</b><b>6</b><b class="operator">−</b><b>1</b><b>2</b><b>3</b><b class="operator">+</b><b class="wide">0</b><b>.</b><b class="operator">=</b></div></div>
+              <span class="visual-label">INTERACTIVE UI / 01</span>
+            </div>
+            <div class="project-info"><div class="project-meta"><span>01 / INTERFACE</span><span>HTML · CSS · JS</span></div><h3>Modern Calculator</h3><p>A calculator interface exploring responsive layout, button states, and JavaScript logic. An extended version includes a scientific mode and a light/dark theme toggle.</p><div class="project-footer"><div class="tag-list"><span>JavaScript</span><span>UI design</span><span>Responsive</span></div><a class="project-link" href="#contact" aria-label="Ask me about the calculator project">↗</a></div></div>
+          </article>
+
+          <article class="project-item reveal">
+            <div class="project-visual visual-login">
+              <div class="login-mock"><div class="login-brand">studio<span>.</span></div><div class="login-orbit"></div><div class="login-copy"><small>WELCOME BACK</small><strong>Make space<br>for what's next.</strong><span class="login-line"></span><i>EMAIL ADDRESS</i><div class="fake-input"></div><i>PASSWORD</i><div class="fake-input short"></div><div class="fake-button">SIGN IN&nbsp; →</div></div></div>
+              <span class="visual-label">LAYOUT STUDY / 02</span>
+            </div>
+            <div class="project-info"><div class="project-meta"><span>02 / WEB PAGE</span><span>HTML · CSS</span></div><h3>Responsive Login Page</h3><p>A login screen concept focused on spacing, hierarchy, form layout, and a clean visual system across screen sizes.</p><div class="project-footer"><div class="tag-list"><span>HTML</span><span>CSS</span><span>Layout</span></div><a class="project-link" href="#contact" aria-label="Ask me about the login page project">↗</a></div></div>
+          </article>
+
+          <article class="project-item reveal">
+            <div class="project-visual visual-news">
+              <div class="news-mock"><div class="news-top"><b>zoom<span>it</span></b><span>TECH / REVIEWS / HOW-TO</span><span>☰</span></div><div class="news-feature"><div><small>FEATURED STORY</small><strong>The next chapter<br>of everyday tech.</strong><span>DESIGN · TECHNOLOGY</span></div><div class="news-art"><div class="art-orb"></div><div class="art-square"></div></div></div><div class="news-bottom"><span>LATEST STORIES</span><i></i><i></i><i></i></div></div>
+              <span class="visual-label">HOMEPAGE PRACTICE / 03</span>
+            </div>
+            <div class="project-info"><div class="project-meta"><span>03 / RECREATION</span><span>BOOTSTRAP · CSS · JS</span></div><h3>Technology Homepage Study</h3><p>A front-end recreation exercise inspired by a technology news homepage, using Bootstrap components and custom styling to practise layout accuracy.</p><div class="project-footer"><div class="tag-list"><span>Bootstrap</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#contact" aria-label="Ask me about the homepage study">↗</a></div></div>
+          </article>
+        </div>
+        <p class="project-note"><span>NOTE</span> These are portfolio placeholders based on practice topics. Add screenshots, live demos, and repository links when your projects are ready to share.</p>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="experience">
+      <div class="section-shell two-column journey-grid">
+        <div class="section-heading reveal"><p class="section-index">04 — THE JOURNEY</p><h2>Learning is<br><em>the work.</em></h2><p class="journey-intro">A simple timeline of the path so far. Add your real school, courses, and dates here.</p></div>
+        <div class="timeline reveal">
+          <article class="timeline-entry"><span class="timeline-date">[YEAR] — PRESENT</span><div><h3>Independent Web Development Learning</h3><p>Practising HTML, CSS, JavaScript, responsive layouts, and building small web projects.</p><span class="timeline-type">PERSONAL LEARNING</span></div></article>
+          <article class="timeline-entry"><span class="timeline-date">[YEAR] — PRESENT</span><div><h3>Python Fundamentals</h3><p>Working through programming exercises involving loops, random numbers, divisibility, and number-base conversion.</p><span class="timeline-type">PROGRAMMING PRACTICE</span></div></article>
+          <article class="timeline-entry"><span class="timeline-date">[START YEAR] — [END YEAR]</span><div><h3>[School / Educational Institution]</h3><p>[Your qualification, current grade or area of study. Add the institution and dates.]</p><span class="timeline-type">EDUCATION</span></div></article>
+          <article class="timeline-entry"><span class="timeline-date">NEXT CHAPTER</span><div><h3>Keep building</h3><p>Deepen JavaScript skills, make more complete projects, and learn modern development workflows.</p><span class="timeline-type">GOALS</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="contact">
+      <div class="section-shell contact-section">
+        <div class="contact-copy reveal"><p class="section-index">05 — GET IN TOUCH</p><h2>Have a good<br><em>idea?</em></h2><p>I’m always interested in learning, collaborating, and hearing about interesting projects. The details below are placeholders—replace them with your real contact information.</p></div>
+        <div class="contact-panel reveal">
+          <span class="contact-label">CONTACT DETAILS</span>
+          <a class="contact-email" href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a>
+          <div class="contact-details"><div><span>LOCATION</span><strong>[City, Country]</strong></div><div><span>AVAILABILITY</span><strong>Open to opportunities</strong></div></div>
+          <div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">YN<span>.</span></span></a><span>DESIGNED & BUILT WITH CURIOSITY</span><span>© <span id="current-year">2026</span> YOUR NAME</span><a href="#home" class="back-top">BACK TO TOP ↑</a></div>
+  </footer>
+</body>
+</html>
